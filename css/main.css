@@ -1,4 +1,33 @@
-*{
-    box-sizing: border-box;
-    margin: 0 auto;
+* {
+  box-sizing: border-box;
+}
+/* header */
+header {
+  background-color: #014e56;
+}
+.headerLink {
+  color: white;
+  text-decoration: none;
+}
+.headerLink1 {
+  color: #014e56;
+  text-decoration: none;
+}
+.headerLink:hover {
+  color: #f67e7e;
+}
+.burger {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .burger {
+    display: block;
+  }
+  .headerLink {
+    display: none;
+  }
+  .contactBtn {
+    display: none !important;
+  }
 }
