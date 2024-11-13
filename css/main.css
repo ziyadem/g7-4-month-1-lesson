@@ -33,33 +33,124 @@ header {
 }
 
 /* section 1 */
-.section1{
+.section1 {
   background-color: #014e56;
-  padding-left: 0;
+  position: relative;
+}
+.section1MainDiv {
   display: flex;
-  padding-top: 170px;
-  padding-bottom: 200px;
-  container: container;
-  justify-content: center;
-    h1{
-      font-weight: 800;
-      color: white;
-      font-size: 100px;
-    }
-  p{
-    color: white;
-    font-size: 18px;
+  position: relative;
+  justify-content: space-between;
+  padding: 100px 0 200px 0;
+}
+h1 {
+  font-weight: 800;
+  color: white;
+  font-size: 120px !important;
+  width: 100%;
+}
+.section1P {
+  color: white;
+  font-size: 18px;
+  margin-top: 50px;
+}
+.sectionMain2Img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.sectionMain1Img {
+  position: absolute;
+  top: 120px;
+  bottom: 0;
+}
+@media screen and (max-width: 1025px) {
+  .sectionMain1Img {
+    display: none;
+  }
+  .sectionMain2Img {
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  .section1MainDiv {
+    flex-direction: column;
+    text-align: center;
+  }
+  h1 {
+    font-size: 60px !important;
+  }
+  .section1P {
+    font-size: 15px;
+    margin-top: 30px;
+  }
+  .rectangle {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 40px !important;
   }
 }
 
 /* section 2 */
-.section2{
-  background-color: #012F34;
-  .section2MainDiv{
-    padding: 200px 50px 200px 50px;
+.section2 {
+  background-color: #012f34;
+  padding: 100px 0;
+  position: relative;
+}
+.section2MainDiv {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 50px;
+}
+.section2h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  width: 30%;
+}
+.section22 {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.section22 h3 {
+  color: #f67e7e;
+  font-size: 18px;
+  font-weight: 700;
+}
+.section22 p {
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  opacity: 80%;
+}
+.section2Img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+@media screen and (max-width: 1025px) {
+  .section2Img {
+    top: 0;
+    right: 0;
   }
-  h1{
-    color: white;
-    font-size: 48px;
+  .section2MainDiv {
+    flex-direction: column;
+  }
+  .section2h2 {
+    width: 100%;
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section22 {
+    margin-bottom: 30px;
+    flex-direction: column;
+    text-align: center;
   }
 }
