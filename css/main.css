@@ -31,3 +31,35 @@ header {
     display: none !important;
   }
 }
+
+/* section 1 */
+.section1{
+  background-color: #014e56;
+  padding-left: 0;
+  display: flex;
+  padding-top: 170px;
+  padding-bottom: 200px;
+  container: container;
+  justify-content: center;
+    h1{
+      font-weight: 800;
+      color: white;
+      font-size: 100px;
+    }
+  p{
+    color: white;
+    font-size: 18px;
+  }
+}
+
+/* section 2 */
+.section2{
+  background-color: #012F34;
+  .section2MainDiv{
+    padding: 200px 50px 200px 50px;
+  }
+  h1{
+    color: white;
+    font-size: 48px;
+  }
+}
