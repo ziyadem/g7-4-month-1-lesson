@@ -43,7 +43,7 @@ header {
   justify-content: space-between;
   padding: 100px 0 200px 0;
 }
-h1 {
+.section1H1 {
   font-weight: 800;
   color: white;
   font-size: 120px !important;
@@ -153,4 +153,31 @@ h1 {
     flex-direction: column;
     text-align: center;
   }
+}
+
+/* section 3 */
+.section3{
+  background-color: #004047;
+}
+.section3MainDiv{
+  padding: 100px 100px;
+ 
+}
+.section3H1{
+  font-size: 48px;
+  color: white;
+}
+.section3Div1 h3{
+  color: #79C8C7;
+}
+.section3Div1 p{
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* section 4 */
+.section4{
+  background-color: #F67E7E;
+  display: flex;
 }
