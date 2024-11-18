@@ -316,3 +316,26 @@ ul{
     gap: 10px;
   }
 }
+/* About */
+
+/* section 3 */
+.aboutSecrion3{
+  background-color: #012F34;
+}
+.aboutSection3TopImg{
+  width: 200px;
+  height: 200px;
+}
+.SomeOf{
+  font-size: 48px;
+  color: white;
+  padding-left: 400px;
+}
+.aboutSection3Div1{
+  display: flex;
+}
+.aboutSection3Div2{
+ padding: 100px 100px;
+ align-items: center;
+ gap: 100px;
+}
