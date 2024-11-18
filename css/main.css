@@ -267,7 +267,7 @@ footer ul {
 ul p {
   margin: 0;
 }
-ul{
+ul {
   padding: 0 !important;
 }
 
@@ -294,7 +294,7 @@ ul{
   .topfooter {
     padding: 50px;
   }
-  footer .headerLink{
+  footer .headerLink {
     display: inline-block;
     margin-top: 20px;
   }
@@ -307,7 +307,7 @@ ul{
     align-items: center;
     gap: 0;
   }
-  ul li{
+  ul li {
     margin-top: 20px;
   }
   .footerHero2Div {
@@ -315,27 +315,4 @@ ul{
     align-items: center;
     gap: 10px;
   }
-}
-/* About */
-
-/* section 3 */
-.aboutSecrion3{
-  background-color: #012F34;
-}
-.aboutSection3TopImg{
-  width: 200px;
-  height: 200px;
-}
-.SomeOf{
-  font-size: 48px;
-  color: white;
-  padding-left: 400px;
-}
-.aboutSection3Div1{
-  display: flex;
-}
-.aboutSection3Div2{
- padding: 100px 100px;
- align-items: center;
- gap: 100px;
 }
