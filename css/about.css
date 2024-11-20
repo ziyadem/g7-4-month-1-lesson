@@ -44,3 +44,45 @@ font-weight: 700;
 font-size: 48px;
 line-height: 48px;
  }
+/* section 3 */
+.aboutSecrion3 {
+  background-color: #012f34;
+}
+.aboutSection3TopImg {
+  width: 200px;
+  height: 200px;
+}
+.SomeOf {
+  font-size: 48px;
+  color: white;
+  text-align: center;
+}
+.aboutSection3Div2 {
+  display: flex;
+  padding: 50px 0 120px 0;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.aboutSection3Div2 img {
+  width: 165px;
+}
+@media screen and (max-width: 1025px) {
+  .aboutSection3Div2 {
+    justify-content: space-between;
+  }
+  .SomeOf {
+    font-size: 32px;
+  }
+  .aboutSection3Div2 img {
+  width: 100px;
+}
+}
+@media screen and (max-width: 768px) {
+  .aboutSection3Div2 {
+    flex-direction: column;
+  }
+  .aboutSection3Div2 img {
+  width: 100%;
+}
+}
