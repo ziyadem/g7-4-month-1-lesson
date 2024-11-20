@@ -1,6 +1,49 @@
 *{
     box-sizing: border-box;
+    font-family: "Livvic", sans-serif;
 }
+section {
+    width: 100%;
+    background-color: #014E56;
+    padding: 120px 165px;
+    position: relative;
+}
+section .box1{
+gap: 30px;
+}
+section .box1 p{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+    width: 730px;
+    margin-top: 40px;
+}
+section .box1 h1{
+    width: 350px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    color: white;
+}
+.image{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+/* section p::before{
+    display: block;
+    background-color: red;
+    width: 300px;
+    height: 200px;
+} */
+ .met{
+color: white;
+text-align: center;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+ }
 /* section 3 */
 .aboutSecrion3 {
   background-color: #012f34;
